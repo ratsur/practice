@@ -2,7 +2,7 @@ package com.ratsur.leetcode;
 
 import java.util.*;
 
-class Solution {
+class PalindromeNumber {
     public boolean isPalindrome(int x) {
         return solve(x, x);
     }
@@ -32,7 +32,4 @@ class Solution {
     }
 }
 
-public class PalindromeNumber {
-
-}
 
